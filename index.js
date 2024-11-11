@@ -95,7 +95,7 @@ function jogarParOuImpar() {
     if (!isNaN(numeroJogador) && numeroJogador >= 1 && numeroJogador <= 10) {
       break;  // Sai do loop quando o número for válido
     } else {
-      alert('Ratiando de novo hein!! Wscolha um número tchê, entre 1 e 10.');
+      alert('Ratiando de novo hein!! Escolhe um número tchê, entre 1 e 10.');
     }
   }
 
@@ -169,4 +169,4 @@ let n = verificarNumero();
 // Verifica se o valor de n é válido antes de calcular o Fibonacci
 
 if (n !== null) {
-  console.log(`O ${n}, enésimo termo da sequência de Fibonacci é: ${fibonacci(n)}`)}
+  console.log(`Você escolheu o ${n},o enésimo termo da sequência de Fibonacci é: ${fibonacci(n)}`)}
