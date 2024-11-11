@@ -82,7 +82,7 @@ function jogarParOuImpar() {
     if (escolhaJogador === 'par' || escolhaJogador === 'ímpar') {
       break;  // Sai do loop quando a escolha for válida
     } else {
-      alert('Escolha inválida. Por favor, digite "Par" ou "Ímpar".');
+      alert('Ta ratiando hein!! Digita Par ou Ímpar.');
     }
   }
 
@@ -95,7 +95,7 @@ function jogarParOuImpar() {
     if (!isNaN(numeroJogador) && numeroJogador >= 1 && numeroJogador <= 10) {
       break;  // Sai do loop quando o número for válido
     } else {
-      alert('Número inválido. Por favor, escolha um número entre 1 e 10.');
+      alert('Ratiando de novo hein!! Wscolha um número tchê, entre 1 e 10.');
     }
   }
 
@@ -130,11 +130,12 @@ jogarParOuImpar();
 // Crie uma função que receba um valor N e descubra qual é o N-ésimo termo da série Fibonacci.
 
 function fibonacci(n){
-// Se N for 0, o termo é 0, se for 1, o termo é 1
+// Se n for 0, o termo é 0, se for 1, o termo é 1
 if(n<=1){
   return n;
 }
 // variáveis para os dois termos
+
 let a = 0; b = 1;
 
 //Calcular o enésimo termo
@@ -168,4 +169,4 @@ let n = verificarNumero();
 // Verifica se o valor de n é válido antes de calcular o Fibonacci
 
 if (n !== null) {
-  console.log(`O ${n}-ésimo termo da sequência de Fibonacci é: ${fibonacci(n)}`)}
+  console.log(`O ${n}, enésimo termo da sequência de Fibonacci é: ${fibonacci(n)}`)}
